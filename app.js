@@ -7,7 +7,7 @@ const route = require('');
 const app = express();
 const PORT = process.env.PORT || 5001;
 const dbconfig = {
-    host: process.env.DB_USER || 'localhost',
+    host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || '3306',
     user: process.env.DB_USER || 'root',
     password: process.env.DB_PASSWORD || 'root123',
