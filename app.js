@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mysql = require('mysql2');
 const conn = require('express-myconnection');
-const route = require('');
+const route = require('./routers/students.routes');
 
 const app = express();
 const PORT = process.env.PORT || 5001;
